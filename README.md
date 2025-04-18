@@ -24,7 +24,7 @@ backbone_models/
 ```bash
 # Create and activate a virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate 
 
 # Install dependencies
 pip download --no-cache-dir -r requirements.txt -d wheels
