@@ -12,9 +12,9 @@ backbone_models/
 ├── results/             # Output results from model evaluation
 ├── src/                 # Source code
 │   ├── imagenet_labels.txt  # ImageNet class labels
-│   └── model_evaluation.py  # Script for evaluating models
+│   ├── model_evaluation.py  # Script for evaluating models
+│   └── download_models.py   # Script to download pre-trained models
 ├── venv/                # Python virtual environment
-├── download_models.py   # Script to download pre-trained models
 ├── requirements.txt     # Python dependencies
 └── run.sh               # Example commands for running the project
 ```
