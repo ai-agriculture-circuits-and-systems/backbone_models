@@ -1,0 +1,8 @@
+Inference time: 1.6461 seconds
+
+Top predictions:
+1. Granny Smith: 0.5549
+2. bell pepper: 0.1794
+3. pomegranate: 0.1409
+4. fig: 0.0425
+5. strawberry: 0.0306
