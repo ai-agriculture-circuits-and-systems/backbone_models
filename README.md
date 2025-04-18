@@ -21,8 +21,6 @@ backbone_models/
 
 ## Installation
 
-### Option 1: Direct Installation
-
 ```bash
 # Create and activate a virtual environment (recommended)
 python -m venv venv
@@ -33,24 +31,12 @@ pip download --no-cache-dir -r requirements.txt -d wheels
 pip install --no-index --find-links=wheels -r requirements.txt
 ```
 
-### Option 2: Offline Installation
-
-If you need to install dependencies without internet access:
-
-```bash
-# Download wheels to a local directory
-pip download --no-cache-dir -r requirements.txt -d wheels
-
-# Install from local wheels
-pip install --no-index --find-links=wheels -r requirements.txt
-```
-
 ## Downloading Pre-trained Models
 
 The project includes a script to download various pre-trained models:
 
 ```bash
-python download_models.py
+python src/download_models.py
 ```
 
 This will download the following model architectures:
